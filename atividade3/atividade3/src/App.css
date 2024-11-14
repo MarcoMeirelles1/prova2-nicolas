@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+.NavBar{
+  background-color: #2200ff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  height: 50px;
+}
+
+#section01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+  flex-wrap: wrap;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 80px;
+  padding-top: 150px;
+  color: #030303;
+}
+
+.nomeDireita{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 50px;
+}
+img{
+  border-radius: 90%;
+}
+
+#section02 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 80px;
+  padding-top: 150px;
+  color: #030303;
+}
+.container{
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(65, 65, 165);
+  width: 800px;
+}
+
+.esquerda{
+  gap: 4vw;
+  border-radius: 15px;
+  width: 70%;
+}
+h1{
+  font-size: 50px;
+}
+.infoEsquerda{
+  font-size: 30px;
+  color: aliceblue;
+}
+.direita{
+  background-color: rgb(24, 28, 28);
+  gap: 6vw;
+  border-radius: 15px;
+  width: 70%;
+}
+.infoDireita{
+  font-size: 30px;
+  color: aliceblue;
+}
